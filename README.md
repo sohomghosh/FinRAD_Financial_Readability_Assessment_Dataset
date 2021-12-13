@@ -14,24 +14,24 @@ This repository contains a sample of the data mentioned in the paper: FinRAD: Fi
 _These are readability scores extracted using the [textstat](https://pypi.org/project/textstat/) library_
 
 **Metadata of source**<br>
-6_8_louis: <br>
-9_12_louis: <br>
-non_educators_louis: <br>
-pre_louis: <br>
-econimist: <br>
-fmi: <br>
-investopedia: <br>
-mankiw: <br>
-ncert: <br>
-ncert_12_econ: <br>
-ncert_keec111: <br>
-ncert_kest: <br>
-opod: <br>
-palgrave: <br>
-prin: <br>
-sam: <br>
-xvi: <br>
-
+'prin': <br>
+'ncert': <br>
+'zvi': <br>
+'sam': <br>
+'opod': <br>
+'fmi': <br>
+'ncert_keec111': <br>
+'ncert_kest': <br>
+'ncert_class12_econ': <br> 
+'investopedia': <br>
+'economist': <br>
+'6_8_louis': <br>
+'9_12_louis': <br>
+'college_louis': <br>
+'non_educators_louis': <br>
+'pre_louis': <br>
+'palgrave': <br>
+       
 ## Citing & Authors
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
 ```bibtex 
