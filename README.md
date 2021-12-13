@@ -24,6 +24,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     year = "2022",
     publisher = "",
     url = "forthcoming",
+    intype = {to appear in},
 }
 ```
 
