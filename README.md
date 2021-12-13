@@ -14,23 +14,23 @@ This repository contains a sample of the data mentioned in the paper: FinRAD: Fi
 _These are readability scores extracted using the [textstat](https://pypi.org/project/textstat/) library_
 
 **Metadata of source**<br>
-'prin': <br>
-'ncert': <br>
-'zvi': <br>
-'sam': <br>
-'opod': <br>
-'fmi': <br>
+'prin': Principles of Corporate Finance by Richard A. Brealey, Stewart C. Myers, Franklin Allen <br>
+'zvi': Investments by Zvi Bodie Alex Kane Alan J. Marcus <br>
+'sam': Economics Textbook by Paul Samuelson and William Nordhaus <br>
+'opod': Options, Futures, and Other Derivatives, Global Edition by John C. Hull <br>
+'fmi': Financial Markets and Institutions by Frederic S. Mishkin Stanley Eakins <br>
 'ncert_keec111': <br>
 'ncert_kest': <br>
-'ncert_class12_econ': <br> 
-'investopedia': <br>
-'economist': <br>
-'6_8_louis': <br>
-'9_12_louis': <br>
-'college_louis': <br>
-'non_educators_louis': <br>
-'pre_louis': <br>
-'palgrave': <br>
+'ncert': keec<br>
+'ncert_class12_econ': NCERT Class 12 Economics<br> 
+'investopedia': Investopedia Data Dictionary <br>
+'economist': The Economist terms dictionary <br>
+'6_8_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis <br>
+'9_12_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  <br>
+'college_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  <br>
+'non_educators_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  <br>
+'pre_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  <br>
+'palgrave': The Palgrave Macmillan Dictionary of Finance, Investment and Banking by Erik Banks <br>
        
 ## Citing & Authors
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
