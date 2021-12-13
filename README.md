@@ -19,10 +19,10 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 'sam': Economics Textbook by Paul Samuelson and William Nordhaus <br>
 'opod': Options, Futures, and Other Derivatives, Global Edition by John C. Hull <br>
 'fmi': Financial Markets and Institutions by Frederic S. Mishkin Stanley Eakins <br>
-'ncert_keec111': <br>
-'ncert_kest': <br>
-'ncert': keec<br>
-'ncert_class12_econ': NCERT Class 12 Economics<br> 
+'ncert_keec111': NECRT <br>
+'ncert_kest': NCERT Statistics for Economics Class 12<br>
+'ncert': NCERT Introduction to MacroEconomics Class 12 <br>
+'ncert_class12_econ': NCERT Introduction to MicroEconomics Class 12 <br> 
 'investopedia': Investopedia Data Dictionary <br>
 'economist': The Economist terms dictionary <br>
 '6_8_louis': Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis <br>
