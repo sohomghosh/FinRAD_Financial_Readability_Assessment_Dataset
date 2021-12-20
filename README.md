@@ -7,7 +7,7 @@ This repository contains a sample of the data mentioned in the paper: FinRAD: Fi
 "terms": _This is the financial term_ <br>
 "definitions": _This is the definition corresponding to the financial term_ <br>
 "source": _This represents the source from which the term and the definition has been obtained._ <br>
-"assigned_readibility": _This is the manually assigned readability. 0 means not readable, 1 means readable_<br>
+"assigned_readibility": _This is the manually assigned readability. 0 means not readable, 1 means readable._<br>
 
 **Other Columns:** <br>
 "flesch_reading_ease",	"flesch_kincaid_grade",	"smog_index",	"coleman_liau_index",	"automated_readability_index",	"dale_chall_readability_score",	"difficult_words",	"linsear_write_formula",	"gunning_fog",	"text_standard",	"fernandez_huerta",	"szigriszt_pazos",	"gutierrez_polini",	"crawford",	"gulpease_index",	"osman" <br>
@@ -47,17 +47,18 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     intype = {to appear in},
 }
 ```
-and our demo/tool presented at ICON 2021:
+and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html):
 ```bibtex 
-@misc{ghosh-2021-finread,
-    title = "FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability",
+@proceedings{ghosh-2021-finread,
+    title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
     author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
     booktitle = "",
-    month = "",
-    year = "2022",
-    publisher = "",
+    month = "dec",
+    year = "2021",
+    publisher = "NLP Association of India (NLPAI)",
     url = "forthcoming",
     intype = {to appear in},
+    pre-print = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3979016"
 }
 ```
 
