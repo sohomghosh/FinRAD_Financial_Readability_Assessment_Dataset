@@ -18,27 +18,27 @@ from sklearn.model_selection import train_test_split
 data = pd.read_csv('data_sample_500.csv')
 data
 
-data['assigned_readibility'].value_counts(normalize = True)
+data['assigned_readability'].value_counts(normalize = True)
 
-data['assigned_readibility'].value_counts()
+data['assigned_readability'].value_counts()
 
-data[data['assigned_readibility']==1]['difficult_words'].mean()
+data[data['assigned_readability']==1]['difficult_words'].mean()
 
-data[data['assigned_readibility']==1]['difficult_words'].median()
+data[data['assigned_readability']==1]['difficult_words'].median()
 
-data[data['assigned_readibility']==1]['difficult_words'].mode()
+data[data['assigned_readability']==1]['difficult_words'].mode()
 
-data[data['assigned_readibility']==0]['difficult_words'].mean()
+data[data['assigned_readability']==0]['difficult_words'].mean()
 
-data[data['assigned_readibility']==0]['difficult_words'].median()
+data[data['assigned_readability']==0]['difficult_words'].median()
 
-data[data['assigned_readibility']==0]['difficult_words'].mode()
+data[data['assigned_readability']==0]['difficult_words'].mode()
 
-data[['source', 'assigned_readibility']].value_counts().reset_index()
+data[['source', 'assigned_readability']].value_counts().reset_index()
 
 data.columns
 
-numeric_columns = ['assigned_readibility',
+numeric_columns = ['assigned_readability',
        'flesch_reading_ease', 'flesch_kincaid_grade', 'smog_index',
        'coleman_liau_index', 'automated_readability_index',
        'dale_chall_readability_score', 'difficult_words',
@@ -70,7 +70,7 @@ data[numeric_columns].global_phik()
 
 data[numeric_columns].significance_matrix()
 
-list(data[data['assigned_readibility']==0]['definitions'].sample(2))
+list(data[data['assigned_readability']==0]['definitions'].sample(2))
 
 report.correlation_report(data[numeric_columns], pdf_file_name='phik_correlation_report.pdf')
 
@@ -84,15 +84,15 @@ for col in ['flesch_reading_ease', 'flesch_kincaid_grade', 'smog_index',
        'linsear_write_formula', 'gunning_fog',
        'fernandez_huerta', 'szigriszt_pazos', 'gutierrez_polini', 'crawford',
        'gulpease_index', 'osman']:
-  mine.compute_score(data[col].values, data['assigned_readibility'].values)
+  mine.compute_score(data[col].values, data['assigned_readability'].values)
   print(col,mine.mic())
 
 for col in numeric_columns:
-  auroc = roc_auc_score(data['assigned_readibility'].values, data[col].values)
+  auroc = roc_auc_score(data['assigned_readability'].values, data[col].values)
   print(col,auroc,"\n")
 
 features = ['definitions']
-Y = data['assigned_readibility']
+Y = data['assigned_readability']
 
 import numpy as np
 np.random.seed(0)
@@ -103,7 +103,7 @@ val_df = data[~msk]
 val_df = val_df.reset_index().copy()
 
 for col in numeric_columns:
-  auroc = roc_auc_score(val_df['assigned_readibility'].values, val_df[col].values)
+  auroc = roc_auc_score(val_df['assigned_readability'].values, val_df[col].values)
   print(col,auroc,"\n")
 
 """# Feature extraction: TF-IDF"""
@@ -141,9 +141,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import f1_score
 
 train_X = tfidf_df_train_original
-train_y = df['assigned_readibility']
+train_y = df['assigned_readability']
 valid_X = tfidf_df_valid_original
-valid_y = val_df['assigned_readibility']
+valid_y = val_df['assigned_readability']
 
 def model(clf, train_X, train_y, valid_X, valid_y):
     clf.fit(train_X, train_y)
