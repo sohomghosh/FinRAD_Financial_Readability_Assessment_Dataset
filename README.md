@@ -29,9 +29,9 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 |economist          |The Economist terms dictionary                                                           |1                   |
 |6_8_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |9_12_louis         |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
-|college_louis      |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |pre_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |palgrave           |The Palgrave Macmillan Dictionary of Finance, Investment and Banking by Erik Banks       |0                   |       
+
 ## Citing & Authors
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
 ```bibtex 
