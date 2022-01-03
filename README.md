@@ -1,6 +1,6 @@
-# FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability
+# FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability
 
-This repository contains a sample of the data mentioned in the paper: FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability (under review). The full data will be released after the acceptance of the paper.
+This repository contains a sample of the data mentioned in the paper: FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability (under review). The full data will be released after the acceptance of the paper.
 
 ## Metadata
 **Primary Columns:** <br>
@@ -30,14 +30,13 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 |6_8_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |9_12_louis         |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |college_louis      |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
-|non_educators_louis|Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |0                   |
 |pre_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
 |palgrave           |The Palgrave Macmillan Dictionary of Finance, Investment and Banking by Erik Banks       |0                   |       
 ## Citing & Authors
-If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
+If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
 ```bibtex 
 @misc{ghosh-2022-finrad,
-    title = "FinRAD: Financial Readability Assessment Dataset - 16,000+ Definitions of Financial Terms for Measuring Readability",
+    title = "FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability",
     author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
     booktitle = "",
     month = "",
