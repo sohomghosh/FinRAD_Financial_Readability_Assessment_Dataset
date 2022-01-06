@@ -10,7 +10,7 @@ This repository contains a sample of the data mentioned in the paper: FinRAD: Fi
 "assigned_readability": _This is the manually assigned readability. 0 means not readable, 1 means readable._<br>
 
 **Other Columns:** <br>
-"flesch_reading_ease",	"flesch_kincaid_grade",	"smog_index",	"coleman_liau_index",	"automated_readability_index",	"dale_chall_readability_score",	"difficult_words",	"linsear_write_formula",	"gunning_fog",	"text_standard",	"fernandez_huerta",	"szigriszt_pazos",	"gutierrez_polini",	"crawford",	"gulpease_index",	"osman" <br>
+"flesch_reading_ease",	"flesch_kincaid_grade",	"smog_index",	"coleman_liau_index",	"automated_readability_index",	"dale_chall_readability_score",	"linsear_write_formula",	"gunning_fog"<br>
 _These are readability scores extracted using the [textstat](https://pypi.org/project/textstat/) library_
 
 **Metadata of source**<br>
