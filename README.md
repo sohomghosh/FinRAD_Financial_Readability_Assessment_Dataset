@@ -1,6 +1,7 @@
 # FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability
 
-This repository contains a sample of the data mentioned in the paper: FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability (under review). The full data will be released after the acceptance of the paper.
+This repository contains a 2 samples ([sample-1](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_500.csv), [sample-2](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_1500.csv)) of the dataset mentioned in the paper: FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability (under review). The full data will be released after the acceptance of the paper.
+In addition to this, data extraction & cleaning scripts, embeddings & labels of the full dataset and few starter codes are present.
 
 ## Metadata
 **Primary Columns:** <br>
