@@ -1,6 +1,6 @@
 This folder contains the notebook presented as a demo at ICON 2021 (http://icon2021.nits.ac.in/coloc_events.html).
 
-NOTE: You need to load the artifact **clf_lgbm_finbert.pickle** while executing the notebook. This is a LightGBM classifier trained over embeddings of more than 8000 definitions of financial terms.
+NOTE: You need to load the artifact **clf_lgbm_finbert.pickle** while executing the notebook. This is a LightGBM classifier trained over FinBERT sentence embeddings of more than 8000 definitions of financial terms. Our new dataset FinRAD and related models are more advanced an enhanced than this one.
 
 ```bibtex 
 @proceedings{ghosh-2021-finread,
