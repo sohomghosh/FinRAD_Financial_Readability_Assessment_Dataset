@@ -58,7 +58,7 @@ and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_even
     publisher = "NLP Association of India (NLPAI)",
     url = "forthcoming",
     intype = {to appear in},
-    pre-print = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3979016"
+    pre-print = "https://easychair.org/publications/preprint/1wvS"
 }
 ```
 
