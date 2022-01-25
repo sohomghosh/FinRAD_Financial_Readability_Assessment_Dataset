@@ -52,7 +52,8 @@ and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_even
 @proceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
     author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
-    booktitle = "",
+    booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON) : 
+ System Demonstrations",
     month = "dec",
     year = "2021",
     publisher = "NLP Association of India (NLPAI)",
