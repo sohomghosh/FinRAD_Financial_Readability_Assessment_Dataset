@@ -52,7 +52,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     intype = {to appear in},
 }
 ```
-and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html):
+and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the *old_model_FinRead* folder:
 ```bibtex 
 @proceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
