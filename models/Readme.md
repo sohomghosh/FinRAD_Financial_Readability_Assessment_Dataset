@@ -1,4 +1,4 @@
-Some of the ready to use trained model artifacts are here. These have been developed using [this notebook](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb).
+Some of the ready to use trained model artifacts are here. These have been trained on the entire dataset. They have been developed using [this notebook](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb).
 
 Code to load these models in Python and generate predictions is presented below.
 ```python
