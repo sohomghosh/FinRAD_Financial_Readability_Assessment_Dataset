@@ -22,21 +22,21 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 **Metadata of source**<br>
 |Tag                |Description                                                                                  |Assigned Readability|
 |-------------------|---------------------------------------------------------------------------------------------|--------------------|
-|prin               |Principles of Corporate Finance by Richard A. Brealey, Stewart C. Myers, Franklin Allen  |0                   |
-|zvi                |Investments by Zvi Bodie Alex Kane Alan J. Marcus                                        |0                   |
-|sam                |Economics Textbook by Paul Samuelson and William Nordhaus                                |1                   |
-|opod               |Options, Futures, and Other Derivatives, Global Edition by John C. Hull                  |0                   |
-|fmi                |Financial Markets and Institutions by Frederic S. Mishkin Stanley Eakins                 |0                   |
-|ncert_keec111      |NCERT Indian Economic Development Economics Class 11                                     |1                   |
-|ncert_kest         |NCERT Statistics for Economics Class 12                                                  |1                   |
-|ncert              |NCERT Introduction to MacroEconomics Class 12                                            |1                   |
-|ncert_class12_econ |NCERT Introduction to MicroEconomics Class 12                                            |1                   |
-|investopedia       |Investopedia Data Dictionary                                                             |1                   |
-|economist          |The Economist terms dictionary                                                           |1                   |
-|6_8_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
-|9_12_louis         |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
-|pre_louis          |Glossary of Economics and Personal Finance Terms from Federal Reserve Bank of St. Louis  |1                   |
-|palgrave           |The Palgrave Macmillan Dictionary of Finance, Investment and Banking by Erik Banks       |0                   |       
+|prin               |_Principles of Corporate Finance_ by Richard A. Brealey, Stewart C. Myers, Franklin Allen  |0                   |
+|zvi                |_Investments_ by Zvi Bodie Alex Kane Alan J. Marcus                                        |0                   |
+|sam                |_Economics Textbook_ by Paul Samuelson and William Nordhaus                                |1                   |
+|opod               |_Options, Futures, and Other Derivatives, Global Edition_ by John C. Hull                  |0                   |
+|fmi                |_Financial Markets and Institutions_ by Frederic S. Mishkin Stanley Eakins                 |0                   |
+|ncert_keec111      |_NCERT Indian Economic Development Economics_ Class 11                                     |1                   |
+|ncert_kest         |_NCERT Statistics for Economics_ Class 12                                                  |1                   |
+|ncert              |_NCERT Introduction to MacroEconomics_ Class 12                                            |1                   |
+|ncert_class12_econ |_NCERT Introduction to MicroEconomics_ Class 12                                            |1                   |
+|investopedia       |_Investopedia_ Data Dictionary                                                             |1                   |
+|economist          |_The Economist_ terms dictionary                                                           |1                   |
+|6_8_louis          |_Glossary of Economics and Personal Finance Terms _from Federal Reserve Bank of St. Louis  |1                   |
+|9_12_louis         |_Glossary of Economics and Personal Finance Terms_ from Federal Reserve Bank of St. Louis  |1                   |
+|pre_louis          |_Glossary of Economics and Personal Finance Terms_ from Federal Reserve Bank of St. Louis  |1                   |
+|palgrave           |_The Palgrave Macmillan Dictionary of Finance, Investment and Banking_ by Erik Banks       |0                   |       
 
 ## Citing & Authors
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
