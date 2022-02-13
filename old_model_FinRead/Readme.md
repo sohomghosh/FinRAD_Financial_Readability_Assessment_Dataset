@@ -9,12 +9,13 @@ NOTE: You need to load the artifact **clf_lgbm_finbert.pickle** while executing 
 @proceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
     author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
-    booktitle = "",
+    booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON) : 
+ System Demonstrations",
     month = "dec",
     year = "2021",
     publisher = "NLP Association of India (NLPAI)",
     url = "forthcoming",
     intype = {to appear in},
-    pre-print = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3979016"
+    pre-print = "https://easychair.org/publications/preprint/1wvS"
 }
 ```
