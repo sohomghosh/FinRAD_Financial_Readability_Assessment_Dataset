@@ -1,3 +1,6 @@
+Old model (using Logistic Regression): [HuggingFace Spaces link](https://huggingface.co/spaces/sohomghosh/FinRead) <br>
+Old model (using lightgbm classifier): [Google Colab link](https://colab.research.google.com/drive/18K_X_sONhA0SHIl96c-KUyhwlOFLtp1z?usp=sharing)
+
 ![alt text](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_gradio.png)
 
 
