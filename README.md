@@ -2,9 +2,9 @@
 
 This repository contains 2 samples ([sample-1](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_500.csv), [sample-2](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_1500.csv)) from the dataset mentioned in the paper: **FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability** (under review).
 
-In addition to this, [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts), [embedding extraction & model development script](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb), a [starter example](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_starting_toy_example_on_data_sample_500.ipynb) and several [trained model artifacts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models) are also present.
+In addition to this, [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts), [embedding extraction & model development script](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb), and a [starter example](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_starting_toy_example_on_data_sample_500.ipynb) are also present.
 
-The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) folder. 
+The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) directory. Several model artifacts developed by training classiers like Logistic Regression, GBM, Random Forest on the entire dataset have been made available in the [models directory] (https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models)
 
 To access the raw version of the full dataset, please send a request by filling this [form](https://forms.gle/hze6qSPc84kuY3McA). We shall share the full dataset after this paper gets accepted.
 
@@ -52,7 +52,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     intype = {to appear in},
 }
 ```
-and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) folder:
+and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) directory:
 ```bibtex 
 @proceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
