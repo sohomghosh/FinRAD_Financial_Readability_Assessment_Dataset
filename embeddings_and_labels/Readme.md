@@ -1,6 +1,6 @@
-The FinBERT embeddings of the entire data set (13,000+ definitions) and the assigned redability scores (i.e. target/labels) are here.
+The BERT and FinBERT embeddings extracted using sentence transformers of the entire data set (13,000+ definitions) and the assigned redability scores (i.e. target/labels) are here. [This notebook](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb) has been used to extract the embeddings.
 
-Python code to read the dataset:
+Python code to read the dataset, create train and validation splits is mentioned below.
 
 ```python
 import pandas as pd
