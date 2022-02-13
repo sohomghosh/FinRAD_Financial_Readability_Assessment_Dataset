@@ -4,9 +4,9 @@ This repository contains 2 samples ([sample-1](https://github.com/sohomghosh/Fin
 
 In addition to this, [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts), [embedding extraction & model development script](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb), and a [starter example](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_starting_toy_example_on_data_sample_500.ipynb) are also present.
 
-The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) directory. Several model artifacts developed by training classiers like Logistic Regression, GBM, Random Forest on the entire dataset have been made available in the [models directory] (https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models)
+The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) directory. Several model artifacts developed by training classiers like Logistic Regression, GBM, Random Forest on the entire dataset have been made available in the [models](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models)  directory.
 
-To access the raw version of the full dataset, please send a request by filling this [form](https://forms.gle/hze6qSPc84kuY3McA). We shall share the full dataset after this paper gets accepted.
+To access the raw version of the full dataset, please send a request by filling [this form](https://forms.gle/hze6qSPc84kuY3McA). We shall share the full dataset after this paper gets accepted.
 
 ## Metadata of FinRAD
 **Primary Columns:** <br>
