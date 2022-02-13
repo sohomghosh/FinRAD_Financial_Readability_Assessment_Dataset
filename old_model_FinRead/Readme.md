@@ -1,7 +1,7 @@
 ![alt text](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_gradio.png)
 
 
-The folder [FinRead_ICON2021_Demo](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead/FinRead_ICON2021_Demo) contains the notebook [FinRead_ICON21_Demo_Readability_System.ipynb](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_ICON2021_Demo/FinRead_ICON21_Demo_Readability_System.ipynb) which was presented as a demo at ICON 2021 (http://icon2021.nits.ac.in/coloc_events.html).
+The folder [FinRead_ICON2021_Demo](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead/FinRead_ICON2021_Demo) contains the notebook [FinRead_ICON21_Demo_Readability_System.ipynb](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_ICON2021_Demo/FinRead_ICON21_Demo_Readability_System.ipynb) which was presented as a demo at ICON 2021 (http://icon2021.nits.ac.in/coloc_events.html). It is a lightgbm model trained on FinBERT embeddings extracted using sentence transformers.
 
 NOTE: You need to load the artifact [clf_lgbm_finbert.pickle](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_ICON2021_Demo/clf_lgbm_finbert.pickle) while executing the notebook. This is a LightGBM classifier trained over FinBERT sentence embeddings of more than 8000 definitions of financial terms.
 
