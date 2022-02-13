@@ -2,13 +2,13 @@
 
 This repository contains 2 samples ([sample-1](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_500.csv), [sample-2](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/data_sample_1500.csv)) from the dataset mentioned in the paper: **FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability** (under review).
 
-In addition to this, data extraction scripts, cleaning scripts and few starter examples are also present.
+In addition to this, [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts), [embedding extraction & model development script](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_Sentence_FinBERTembedding_Extraction_Modeling_13K.ipynb), a [starter example](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/FinRAD_starting_toy_example_on_data_sample_500.ipynb) and several [trained model artifacts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models) are also present.
 
-The embeddings & labels of the full dataset are available in the *embeddings_and_labels* folder. 
+The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) folder. 
 
 To access the raw version of the full dataset, please send a request by filling this [form](https://forms.gle/hze6qSPc84kuY3McA). We shall share the full dataset after this paper gets accepted.
 
-## Metadata
+## Metadata of FinRAD
 **Primary Columns:** <br>
 "terms": _This is the financial term_ <br>
 "definitions": _This is the definition corresponding to the financial term_ <br>
@@ -33,7 +33,7 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 |ncert_class12_econ |_NCERT Introduction to MicroEconomics_ Class 12                                            |1                   |
 |investopedia       |_Investopedia_ Data Dictionary                                                             |1                   |
 |economist          |_The Economist_ terms dictionary                                                           |1                   |
-|6_8_louis          |_Glossary of Economics and Personal Finance Terms _from Federal Reserve Bank of St. Louis  |1                   |
+|6_8_louis          |_Glossary of Economics and Personal Finance Terms_ from Federal Reserve Bank of St. Louis  |1                   |
 |9_12_louis         |_Glossary of Economics and Personal Finance Terms_ from Federal Reserve Bank of St. Louis  |1                   |
 |pre_louis          |_Glossary of Economics and Personal Finance Terms_ from Federal Reserve Bank of St. Louis  |1                   |
 |palgrave           |_The Palgrave Macmillan Dictionary of Finance, Investment and Banking_ by Erik Banks       |0                   |       
@@ -52,7 +52,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     intype = {to appear in},
 }
 ```
-and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the *old_model_FinRead* folder:
+and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) folder:
 ```bibtex 
 @proceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
