@@ -52,7 +52,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     intype = {to appear in},
 }
 ```
-and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) directory.
+and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) directory. <br>
 Old model (using Logistic Regression): [HuggingFace Spaces link](https://huggingface.co/spaces/sohomghosh/FinRead) <br>
 Old model (using lightgbm classifier): [Google Colab link](https://colab.research.google.com/drive/18K_X_sONhA0SHIl96c-KUyhwlOFLtp1z?usp=sharing)
 
