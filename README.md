@@ -8,6 +8,8 @@ The embeddings & labels of the full dataset are available in the [embeddings_and
 
 To access the raw version of the full dataset, please send a request by filling [this form](https://forms.gle/hze6qSPc84kuY3McA). We shall share the full dataset after this paper gets accepted.
 
+![alt text](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/process_flow.png)
+
 ## Metadata of FinRAD
 **Primary Columns:** <br>
 "terms": _This is the financial term_ <br>
