@@ -52,6 +52,7 @@ If you find this repository helpful, feel free to cite our forthcoming publicati
     url = "forthcoming",
     publisher = {European Language Resources Association (ELRA)},
     address = {Marseille, France},
+     pre-print = "https://easychair.org/publications/preprint/tZW3"
 }
 ```
 and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) directory. <br>
