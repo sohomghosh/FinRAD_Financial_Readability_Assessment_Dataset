@@ -43,16 +43,16 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 ## Citing & Authors
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
 ```bibtex 
-@misc{ghosh-2022-finrad,
-    title = "FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability",
-    author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
-    booktitle = "Proceedings of the 4th Financial Narrative Processing Workshop, colocated with LREC-2022",
-    month = "June",
-    year = "2022",
-    url = "forthcoming",
-    publisher = {European Language Resources Association (ELRA)},
-    address = {Marseille, France},
-     pre-print = "https://easychair.org/publications/preprint/tZW3"
+@InProceedings{ghosh-EtAl:2022:FNP,
+  author    = {Ghosh, Sohom  and  Sengupta, Shovon  and  Naskar, Sudip  and  Singh, Sunny Kumar},
+  title     = {FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability},
+  booktitle      = {Proceedings of the The 4th Financial Narrative Processing Workshop @LREC2022},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {1--9},
+  url       = {http://www.lrec-conf.org/proceedings/lrec2022/workshops/FNP/pdf/2022.fnp-1.1.pdf}
 }
 ```
 and our demo/tool presented at [ICON 2021](http://icon2021.nits.ac.in/coloc_events.html). The artifacts of this demo are available in the [old_model_FinRead](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/old_model_FinRead) directory. <br>
@@ -60,7 +60,7 @@ New model trained on 13K+ instances (using Logistic Regression): [HuggingFace Sp
 Old model trained on 8K+ instances (using lightgbm classifier): [Google Colab link](https://colab.research.google.com/drive/18K_X_sONhA0SHIl96c-KUyhwlOFLtp1z?usp=sharing)
 
 ```bibtex 
-@proceedings{ghosh-2021-finread,
+@InProceedings{ghosh-2021-finread,
     title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
     author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
     booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON) : 
