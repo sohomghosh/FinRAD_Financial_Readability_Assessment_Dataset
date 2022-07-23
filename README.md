@@ -44,7 +44,7 @@ _These are readability scores extracted using the [textstat](https://pypi.org/pr
 If you find this repository helpful, feel free to cite our forthcoming publication [FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability](to be updated):
 ```bibtex 
 @InProceedings{ghosh-EtAl:2022:FNP,
-  author    = {Ghosh, Sohom  and  Sengupta, Shovon  and  Naskar, Sudip  and  Singh, Sunny Kumar},
+  author    = {Ghosh, Sohom  and  Sengupta, Shovon  and  Naskar, Sudip Kumar and  Singh, Sunny Kumar},
   title     = {FinRAD: Financial Readability Assessment Dataset - 13,000+ Definitions of Financial Terms for Measuring Readability},
   booktitle      = {Proceedings of the The 4th Financial Narrative Processing Workshop @LREC2022},
   month          = {June},
