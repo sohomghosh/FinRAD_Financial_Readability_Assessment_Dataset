@@ -60,18 +60,20 @@ New model trained on 13K+ instances (using Logistic Regression): [HuggingFace Sp
 Old model trained on 8K+ instances (using lightgbm classifier): [Google Colab link](https://colab.research.google.com/drive/18K_X_sONhA0SHIl96c-KUyhwlOFLtp1z?usp=sharing)
 
 ```bibtex 
-@InProceedings{ghosh-2021-finread,
-    title = "FinRead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
-    author = "Sohom Ghosh, Shovon Sengupta, Sudip Kumar Naskar, Sunny Kumar Singh",
-    booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON) : 
- System Demonstrations",
-    month = "dec",
+@inproceedings{ghosh-etal-2021-finread,
+    title = "{F}in{R}ead: A Transfer Learning Based Tool to Assess Readability of Definitions of Financial Terms",
+    author = "Ghosh, Sohom  and
+      Sengupta, Shovon  and
+      Naskar, Sudip  and
+      Singh, Sunny Kumar",
+    booktitle = "Proceedings of the 18th International Conference on Natural Language Processing (ICON)",
+    month = dec,
     year = "2021",
+    address = "National Institute of Technology Silchar, Silchar, India",
     publisher = "NLP Association of India (NLPAI)",
-    url = "forthcoming",
-    intype = {to appear in},
-    pre-print = "https://easychair.org/publications/preprint/1wvS"
-}
+    url = "https://aclanthology.org/2021.icon-main.81",
+    pages = "658--659"
+    }
 ```
 ![alt text](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/old_model_FinRead/FinRead_gradio.png)
 
