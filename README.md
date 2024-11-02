@@ -6,7 +6,7 @@ In addition to this, [data collection & cleaning scripts](https://github.com/soh
 
 The embeddings & labels of the full dataset are available in the [embeddings_and_labels](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/embeddings_and_labels) directory. Several model artifacts developed by training classiers like Logistic Regression, GBM, Random Forest on the entire dataset have been made available in the [models](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/models)  directory.
 
-To access the raw version of the full dataset, please send a request by filling [this form](https://forms.gle/hze6qSPc84kuY3McA). You can also re-create the raw datasets using the [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts/).
+To access the raw version of the full dataset from https://huggingface.co/datasets/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset. Also, please send a request by filling [this form](https://forms.gle/hze6qSPc84kuY3McA). You can also re-create the raw datasets using the [data collection & cleaning scripts](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/tree/main/data_collection_cleaning_EDA_scripts/).
 
 ![alt text](https://github.com/sohomghosh/FinRAD_Financial_Readability_Assessment_Dataset/blob/main/process_flow.png)
 
